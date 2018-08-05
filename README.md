@@ -13,12 +13,12 @@ Above steps will install all the required modules from global npm repository
 Now install the MongoDB in your local machine   
 Default setting for mongoDb database is   
 portNumber: 27017   
-accessUrl: mongodb://localhost:27017
+accessUrl: mongodb://localhost:27017   
 create database with <b> db_name: 'page_keyword'</b>   
 creaate collection in above database with <b> collection_name: 'keywords'</b>   
 
 <b>Start App </b>  
-Now Above app is ready to start with database and reids cache inplace  
+Now Above app is ready to start with database     
 To start above app   
 node bin/www  
 above app will by default start on 7001 port number 
